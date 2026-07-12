@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+    <div class="hdr">
+        <b>CONVERSION TOOL</b>
+        <button id="theme" type="button">Dark 
+            <span class="track">
+                <i class="thumb"></i>
+            </span></button>
+        </div>
+    <div class="intro">
+        <h1>Unit Converter</h1>
+        <p>Convert length, weight, and temperature.</p>
+    </div>
+    <div class="tabs" id="tabs">
+        <button data-cat="length" class="active">length</button>
+        <button data-cat="weight">weight</button>
+        <button data-cat="temperature">temperature</button>
+    </div>
+    <form id="form" class="card">
+        <div class="fld">
+            <label id="lbl">Enter length to convert</label>
+            <input type="number" id="inp" step="any" required placeholder="67 or any number..." autocomplete="off">
+        </div>
+        <div class="row">
+            <div class="fld w42"><label>From</label><select id="from"></select></div>
+            <button type="button" id="swap" class="swap">⇄</button>
+            <div class="fld w42">
+                <label>To</label>
+                <select id="to"></select>
+            </div>
+        </div>
+        <button type="submit" class="btn">CONVERT</button>
+        <div class="res">
+            <span>RESULT</span>
+            <div id="out">—</div>
+        </div>
+    </form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
