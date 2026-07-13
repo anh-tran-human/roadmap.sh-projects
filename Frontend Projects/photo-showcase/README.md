@@ -14,11 +14,11 @@ You can use your own images, public images, or placeholder URLs - the focus is o
 
 - [x] At least six images inside the main content. Each img must include:
 
-    A src that points to a real image (a local file or a public URL).
+    - A src that points to a real image (a local file or a public URL).
 
-    A useful alt attribute that describes the image, not the filename.
+    - A useful alt attribute that describes the image, not the filename.
 
-    width and height attributes to reserve layout space and prevent the page from jumping as images load.
+    - width and height attributes to reserve layout space and prevent the page from jumping as images load.
 
 - [x] Captions on at least three images using figure and figcaption. Remember: the alt text stands in for the image when it cannot be seen; the caption gives extra context to everyone.
 
