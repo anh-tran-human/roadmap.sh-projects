@@ -7,4 +7,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Photo Showcase](https://roadmap.sh/projects/photo-showcase)
 [Unit Converter](https://roadmap.sh/projects/unit-converter)
 [Pricing Cards](https://roadmap.sh/projects/pricing-cards)
-
+[Changelog Component](https://roadmap.sh/projects/changelog-component)
