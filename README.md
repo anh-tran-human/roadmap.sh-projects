@@ -8,3 +8,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Unit Converter](https://roadmap.sh/projects/unit-converter)
 [Pricing Cards](https://roadmap.sh/projects/pricing-cards)
 [Changelog Component](https://roadmap.sh/projects/changelog-component)
+[Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
