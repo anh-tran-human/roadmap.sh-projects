@@ -9,3 +9,4 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 [Pricing Cards](https://roadmap.sh/projects/pricing-cards)
 [Changelog Component](https://roadmap.sh/projects/changelog-component)
 [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
+[Theme Switcher with CSS Variables](https://roadmap.sh/projects/theme-switcher)
