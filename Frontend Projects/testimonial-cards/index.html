@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Testimonial Cards for roadmap.sh">
+    <meta name="author" content="Anh Tran">
+    <title>Testimonial Cards for roadmap.sh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="testimonial-container">
+        
+        <div class="card-top-left">
+            <div class="card card-dark card-absolute">
+                <p class="quote-text">I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from where I started.<br><br>Highly recommended!</p>
+            </div>
+            <div class="author-info flex-info mt-25">
+                <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&h=100&fit=crop" alt="Artem Jones" class="avatar">
+                <div>
+                    <p class="author-name">Artem Jones</p>
+                    <p class="author-title">Junior Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-light card-top-right card-static">
+            <p class="quote-text mb-30">Since starting my career in 2021, I have only followed one resource, roadmap.sh, it truly helped me go from 0 to having a job and changing the financial trajectory of my family</p>
+            <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&h=100&fit=crop" alt="Artem Jones" class="avatar">
+            <div class="details">
+                <p class="author-name">Artem Jones</p>
+                <p class="author-title">Junior Frontend Developer</p>
+            </div>
+        </div>
+
+        <div class="card-grid-wrapper card-span">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=600&fit=crop" alt="Jackie Mackle" class="grid-image">
+            <div class="card card-dark grid-content">
+                <div class="stars">★★★★★</div>
+                <h3 class="author-name lg-text">Jackie Mackle</h3>
+                <p class="author-title mb-20">Engineering Manager</p>
+                <p class="quote-text">I find myself recommending roadmap.sh to all the internees or junior developers. It's a great way to skill up and grow in your career.</p>
+            </div>
+        </div>
+
+        <div class="card card-light card-flex card-span">
+            <p class="quote-text center-text">roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on millions of lives since then.</p>
+            
+            <input type="radio" name="slider" id="s1" class="hidden" checked>
+            <input type="radio" name="slider" id="s2" class="hidden">
+            <input type="radio" name="slider" id="s3" class="hidden">
+
+            <div class="carousel-wrapper">
+                <div class="carousel-controls">
+                    <label for="s3" class="arrow l-s3">&#10094;</label>
+                    <label for="s1" class="arrow l-s1">&#10094;</label>
+                    <label for="s2" class="arrow l-s2">&#10094;</label>
+
+                    <div class="avatars-container">
+                        <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=100&h=100&fit=crop" class="avatar-slide img-1">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" class="avatar-slide img-2">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" class="avatar-slide img-3">
+                    </div>
+
+                    <label for="s2" class="arrow r-s2">&#10095;</label>
+                    <label for="s3" class="arrow r-s3">&#10095;</label>
+                    <label for="s1" class="arrow r-s1">&#10095;</label>
+                </div>
+                
+                <p class="author-name name-slide n-1">Artem Jones</p>
+                <p class="author-name name-slide n-2">David Kim</p>
+                <p class="author-name name-slide n-3">Elena Cruz</p>
+            </div>
+        </div>
+
+        <div class="card card-light card-span mt-10">
+            <p class="quote-text offset-text">"Using relative positioning allowed me to creatively offset this testimonial quote slightly up and to the right from its normal flow, ensuring all 5 layout constraints are met!"</p>
+            <div class="flex-info mt-20">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Jane Doe" class="avatar">
+                <div>
+                    <p class="author-name">Elena Cruz</p>
+                    <p class="author-title">Senior Layout Auditor</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
